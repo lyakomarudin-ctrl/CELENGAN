@@ -32,8 +32,8 @@ input:focus,select:focus{outline:0;border-color:var(--a);box-shadow:0 0 0 3px rg
 .warn{background:#FFF1F1;border:1px solid #FFD3D5;color:#B42318;border-radius:14px;padding:12px;margin:12px 0;font-size:14px}
 .emp{text-align:center;color:var(--mute);padding:26px 0}
 .an{animation:f .3s}@keyframes f{from{opacity:0;transform:translateY(8px)}}
-#ld{position:fixed;top:0;left:0;right:0;height:3px;background:var(--g);opacity:0;transition:opacity .3s;transform-origin:left;animation:ld 1s infinite alternate;z-index:60}@keyframes ld{from{transform:scaleX(.1)}to{transform:scaleX(1)}}
-#toast{position:fixed;left:50%;bottom:120px;transform:translate(-50%,20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:14px;opacity:0;pointer-events:none;transition:.25s;z-index:70;max-width:90%;text-align:center}#toast.on{opacity:1;transform:translate(-50%,0)}#toast.er{background:var(--out)}
+#ld{position:fixed;top:0;left:0;right:0;height:3px;background:var(--g);opacity:0;transition:opacity .3s;transform-origin:left;animation:ld 1s infinite alternate;z-index:90}@keyframes ld{from{transform:scaleX(.1)}to{transform:scaleX(1)}}
+#toast{position:fixed;left:50%;bottom:120px;transform:translate(-50%,20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:14px;opacity:0;pointer-events:none;transition:.25s;z-index:90;max-width:90%;text-align:center}#toast.on{opacity:1;transform:translate(-50%,0)}#toast.er{background:var(--out)}
 nav{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:space-around;align-items:center;padding:6px 8px calc(env(safe-area-inset-bottom,0px) + 6px);background:rgba(255,255,255,.78);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid var(--line);z-index:20}
 nav .n{flex:1;border:0;background:none;color:var(--mute);font-weight:700;font-size:12px;padding:12px 0}nav .n.on{color:var(--a)}
 .fab{width:60px;height:60px;border-radius:50%;background:var(--g);color:#fff;font-size:32px;border:0;margin-top:-30px;box-shadow:0 10px 24px -6px rgba(91,92,246,.7)}
