@@ -47,7 +47,7 @@ nav .n{flex:1;border:0;background:none;color:var(--mute);font-weight:700;font-si
 <input id="pin" type="password" inputmode="numeric" maxlength="6" autocomplete="off"><button class="b" onclick="unlock()">Buka</button></div>
 <nav><button class="n" data-v="beranda" onclick="go('beranda')">Beranda</button><button class="n" data-v="riwayat" onclick="go('riwayat')">Riwayat</button><button class="fab" onclick="openTx()" aria-label="Tambah transaksi">+</button><button class="n" data-v="anggaran" onclick="go('anggaran')">Anggaran</button><button class="n" data-v="rencana" onclick="go('rencana')">Rencana</button></nav>
 <script>
-const API='https://script.google.com/macros/s/AKfycbzeusye3Dgru6Xt8bZZHcCJYq4lmB5EKQuKc_JiBSRLDW1UurVXVywnxaclUVZIN-Tj/exec';
+const API='https://script.google.com/macros/s/AKfycbyDaC9En_mXulT1399rJzvAtxRNDyd_6GtKR11wweqYzH9JsdefTN266gJ7OEaQgheQ/exec';
 const CAT={out:['Makan','Transportasi','Belanja','Tagihan','Hiburan','Kesehatan','Cicilan','Lainnya'],in:['Gaji','Bonus','Usaha','Lainnya']};
 const DEF={Makan:25,Transportasi:10,Belanja:8,Tagihan:10,Hiburan:5,Kesehatan:2,Cicilan:15,Lainnya:5};
 let PIN=localStorage.getItem('pin')||'',D={Transaksi:[],Cicilan:[],Target:[],Anggaran:[]};
